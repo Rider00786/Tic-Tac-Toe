@@ -40,3 +40,15 @@ body{
     font-size: 8vmin;
     color: rgb(3, 136, 92);
 }
+
+#resetButton{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(255, 225, 143);
+
+    width: 15rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+    
+}
