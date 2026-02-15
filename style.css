@@ -15,7 +15,7 @@ body{
     justify-content: center;
     align-items: center;
 
-
+    
 }
 
 .game{
@@ -38,7 +38,8 @@ body{
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
 
     font-size: 8vmin;
-    color: rgb(3, 136, 92);
+    color: rgb(162, 168, 166);
+    
 }
 
 #resetButton{
@@ -50,5 +51,5 @@ body{
     border-radius: 1rem;
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
-    
+
 }
