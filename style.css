@@ -42,6 +42,10 @@ body{
     
 }
 
+.game-name{
+    font-size: 7vmin;
+}
+
 #resetButton{
     padding: 1rem;
     font-size: 1.25rem;
@@ -52,4 +56,29 @@ body{
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
 
+}
+
+#win-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(185, 185, 185);
+
+    width: 15rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);   
+}
+
+#msg{
+    color: rgb(0, 0, 0);
+    font-size: 6vmin;
+    height: 10vmin;
+}
+
+.msg-container{
+    height: 30vmin;
+}
+
+.hide{
+    display: none;
 }
