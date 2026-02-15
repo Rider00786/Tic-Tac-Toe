@@ -67,6 +67,17 @@ body{
     border-radius: 1rem;
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);   
+
+}
+
+#win-btn:hover{
+    background-color: black;
+    color:white;
+    
+    transform: scale(1.20);
+    transition: transform 0.5s ease-in-out;
+    
+
 }
 
 #msg{
@@ -76,8 +87,13 @@ body{
 }
 
 .msg-container{
-    height: 30vmin;
+    height: 90vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .hide{
     display: none;
